@@ -12,22 +12,22 @@ function NavBar() {
             <a className="navbar-brand" href="#">CRT</a>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">HOME</a>
+                <a className="nav-link active" aria-current="page" href="#Home">HOME</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">ABOUT</a>
+                <a className="nav-link" href="#About">ABOUT</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">EDUCATION</a>
+                <a className="nav-link" href="#Education">EDUCATION</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">PROJECT</a>
+                <a className="nav-link" href="#Project">PROJECT</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">SKILL</a>
+                <a className="nav-link" href="#Skill">SKILL</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link pe-0" href="#">CONTACT</a>
+                <a className="nav-link pe-0" href="#Contact">CONTACT</a>
               </li>
             </ul>
           </div>

@@ -2,20 +2,20 @@ import React from 'react';
 
 function Contact() {
     return (
-        <div id="Contact" className="page">
-            <div className="col-6 mx-auto">
-                <div className="text-center">CONTACT</div>
-                    <div className="d-flex">
+        <div id="Contact" className="row align-items-center">
+            <div className="col-4 mx-auto">
+                <div className="text-center contact-topic">CONTACT</div>
+                    <div className="contact-detail">
                         <img className="icon" src="/images/github.png" />
-                        <div>christycrt</div>
+                        <span>christycrt</span>
                     </div>
-                    <div className="d-flex">
+                    <div className="contact-detail">
                         <img className="icon" src="/images/phone-call.png" />
-                        <div>0922570180</div>
+                        <span>0922570180</span>
                     </div>
-                    <div className="d-flex">
+                    <div className="contact-detail">
                         <img className="icon" src="/images/email.png" />
-                        <div>jeeranan.phaksongsri@gmail.com</div>
+                        <span>jeeranan.phaksongsri@gmail.com</span>
                     </div>
             </div>
         </div>

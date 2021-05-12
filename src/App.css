@@ -1,10 +1,19 @@
 .App {
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
-.page {
-  margin-top: 90px;
+/* .app-container {
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
 }
+
+.child-container {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+} */
 
 #Home {
   background-color: #eeeeee;
@@ -49,8 +58,10 @@ nav {
 }
 
 .text-box {
-  transform: translateY(-50%);
-  margin-top: 250px;
+  /* transform: translateY(-50%); */
+  /* margin-top: 12%; */
+  /* margin-top: 50%; */
+  /* vertical-align: middle; */
 }
 
 .home-text {
@@ -72,7 +83,7 @@ nav {
   margin-bottom: 30px;
 }
 
-.btn-warning {
+.btn-primary {
   color: #ffffff;
   font-weight: bold;
   font-size: 15px;
@@ -80,6 +91,12 @@ nav {
   border-radius: 180px;
   padding: 10px 20px 10px 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-color: #FFD232;
+}
+
+.btn-primary:hover {
+  background-color: #ffc800;
+  border-color: #ffc800;
 }
 
 .profile-box {
@@ -94,6 +111,8 @@ nav {
 
 #About {
   height: 100vh;
+  background-image: url("./bg-img/Group6.png");
+  background-size: 100% 100%;
 }
 
 .about-pic {
@@ -124,18 +143,22 @@ nav {
 /* Education */
 
 #Education {
+  background-color: #eeeeee;
   height: 100vh;
+  background-image: url("./bg-img/Group 7.png");
+  background-size: 100% 100%;
 }
 
 .education-text {
   font-weight: bold;
   font-size: 35px;
   color: #FFD232;
-  margin-bottom: 90px;
+  margin-bottom: 70px;
 }
 
 .box {
-  border-right: 1px solid black;
+  border-left: 1px solid black;
+  min-height: 200px;
 }
 
 .topic-study {
@@ -145,50 +168,86 @@ nav {
 }
 
 .gradcap {
-  height: 50px;
-  margin-left: -25px;
+  width: 80px;
+  margin-left: -40px;
+  margin-top: 60px;
 }
 
-.school-text {
-  padding-left: 100px;
+.text-edu {
+  padding-left: 50px;
 }
 
 /* Project */
 
 #Project {
   height: 100vh;
+  background-image: url("./bg-img/Group 8.png");
+  background-size: 100% 100%;
+}
+
+.project {
+  margin-bottom: 70px;
 }
 
 .project-topic {
   font-weight: bold;
   font-size: 35px;
   color: #FFD232;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
+}
+
+.annoucer-topic {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.project-detail {
+  color: #ffffff;
 }
 
 .box-project {
-  
+  background-color: #FFD232;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  min-height: 100%;
+  border-radius: 25px;
+  padding: 50px 25px 25px 25px;
 }
 
 /* Skill */
 
 #Skill {
+  background-color: #eeeeee;
   height: 100vh;
 }
 
 .box-skill {
   background-color: #FFEAA1;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-  width: 200px;
   height: 150px;
   border-radius: 25px;
-  margin: 20px;
+  padding-top: 25px;
+  text-align: center;
 }
 
 .skill-pic {
-  height: 80%;
+  height: 100px;
 }
 
 #Contact {
-  height: 100vh;
+  height: 60vh;
+  background-image: url("./bg-img/Group 9.png");
+  background-size: 100% 100%;
+}
+
+.contact-topic {
+  font-weight: bold;
+  font-size: 35px;
+  color: #FFD232;
+  margin-bottom: 50px;
+}
+
+.contact-detail {
+  margin-bottom: 20px;
 }
